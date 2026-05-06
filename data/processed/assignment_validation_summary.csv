@@ -1,0 +1,10 @@
+metric,value,unit,note
+pure_electric_buses_source,1517.0,buses,Records with combustible == ELECTRICO in Flota vinculada SITP.
+assigned_electric_buses,1517.0,buses,Buses assigned through operator-zone to depot rules.
+assigned_daily_energy,319269.75,kWh/day,Daily energy proxy after depot assignment.
+route_depot_assignment_rows,311.0,rows,Operator-route shares expanded to assigned depots.
+gtfs_any_match_rate,0.7717041800643086,share,Validation route rows matched to current GTFS route_id or route_short_name.
+validation_hour_profile_row_rate,1.0,share,Depot-route-hour rows using validation profiles instead of fallback operation profile.
+bus_count_assignment_confidence_high,854.0,buses,Confidence from zone/depot mapping rule.
+bus_count_assignment_confidence_low,32.0,buses,Confidence from zone/depot mapping rule.
+bus_count_assignment_confidence_medium,631.0,buses,Confidence from zone/depot mapping rule.

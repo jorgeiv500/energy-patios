@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived DOI and the associated Energy manuscript."
+title: "Rooftop-aware optimization of electric bus depot charging, photovoltaic generation, and battery storage under grid-capacity constraints"
+type: software
+authors:
+  - family-names: "Romero-Gelvez"
+    given-names: "Jorge Ivan"
+    orcid: "https://orcid.org/0000-0002-5335-0819"
+  - family-names: "Zapata"
+    given-names: "Sebastian"
+    orcid: "https://orcid.org/0000-0002-4836-8328"
+version: "v1.0.0-energy-submission"
+date-released: "2026-05-06"
+doi: "10.5281/zenodo.20045572"
+repository-code: "https://github.com/jorgeiv500/energy-patios"
+url: "https://doi.org/10.5281/zenodo.20045572"
+keywords:
+  - "electric buses"
+  - "smart charging"
+  - "rooftop photovoltaics"
+  - "battery storage"
+  - "urban energy systems"
+  - "mixed-integer linear programming"
+license: "MIT"

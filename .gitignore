@@ -1,0 +1,52 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Large or third-party raw data should be downloaded from source providers.
+data/raw/
+data/processed/ideca/
+*.gpkg
+*.zip
+
+# Keep lightweight processed CSV/GeoJSON inputs and generated result tables.
+metadata/
+manuscript/
+docs/*
+!docs/data_inventory.md
+!docs/experimental_design.md
+!docs/route_depot_assignment_method.md
+!docs/solver_protocol.md
+scripts/build_manuscript_results.py
+scripts/download_nastasi_literature.py
+scripts/download_open_literature.py
+scripts/download_workflow_missing_sources.py
+scripts/run_pilot_experiment.py
+results/tables/pilot_*.csv
+results/tables/*PZ001-PZ050.csv
+results/tables/*PZ049-PZ050.csv
+
+# LaTeX build byproducts are local only.
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.spl
+*.synctex.gz
+*.toc
+
+# Temporary rendered review sheets
+*.tmp
